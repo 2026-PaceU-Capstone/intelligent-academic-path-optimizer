@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react"; // 1. Added React Hooks here!
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -183,7 +183,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/intelligent-academic-path-optimizer">
       <AppContent />
     </Router>
   );
