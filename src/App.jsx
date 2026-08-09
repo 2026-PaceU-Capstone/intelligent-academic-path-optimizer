@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react"; // 1. Added React Hooks here!
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,
